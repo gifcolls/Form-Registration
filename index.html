@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form Validation</title>
+    <link href="formStyle.css" rel="stylesheet" />
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <article>
+        <form id="registrationForm">
+            <fieldset class="form">
+                <h3>Registration Form</h3>
+                
+
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" />
+                <p id="firstNameError" class="errorMessage"></p>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" />
+                <p id="lastNameError" class="errorMessage"></p>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" />
+                <p id="addressError" class="errorMessage"></p>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" />
+                <p id="cityError" class="errorMessage"></p>
+
+                <label for="postalCode">Zip Code:</label>
+                <input type="text" id="postalCode" />
+                <p id="postalCodeError" class="errorMessage"></p>
+
+                <label for="province">Province:</label>
+                <input type="text" id="province" />
+                <p id="provinceError" class="errorMessage"></p>
+
+                <label for="age">Age:</label>
+                <input type="text" id="age" />
+                <p id="ageError" class="errorMessage"></p>
+
+                <label for="pw1">Password:</label>
+                <input type="password" id="pw1" />
+                <label for="pw2">Confirm:</label>
+                <input type="password" id="pw2" />
+                <p id="passwordError" class="errorMessage"></p>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" />
+                <p id="emailError" class="errorMessage"></p>
+
+                <div class="buttons">
+                    <input type="button" id="registerBtn" value="Register Now" />
+                    <input type="button" id="clearBtn" value="Clear Form" />
+                </div>
+
+                <p>&copy; Giselle Fe Colls</p>
+            </fieldset>
+        </form>
+        <section id="profile">
+            <h3>ACCOUNT INFORMATION</h3>
+            <div id="firstNameSection">
+                <h4>First Name</h4>
+                <p id="profileUsernamef"></p>
+            </div>
+
+            <div id="lastNameSection">
+                <h4>Last Name</h4>
+                <p id="profileUsernamel"></p>
+            </div>
+            
+            <div id="addressSection">
+                <h4>Address</h4>
+                <p id="profileAddress"></p>
+            </div>
+
+            <div id="citySection">
+                <h4>City</h4>
+                <p id="profileCity"></p>
+            </div>
+
+            <div id="postalCodeSection">
+                <h4>Zip Code</h4>
+                <p id="profilePostalCode"></p>
+            </div>
+
+            <div id="provinceSection">
+                <h4>Province</h4>
+                <p id="profileProvince"></p>
+            
+                <div id="ageSection">
+                    <h4>Age:</h4>
+                    <p id="profileAge"></p>
+                </div>
+
+            <div id="emailSection">
+                <h4>Email</h4>
+                <p id="profileEmail"></p>
+            </div>
+
+           
+            </div>
+        </section>
+    </article>
+    
+</body>
+</html>
